@@ -1,0 +1,33 @@
+# Snowflake Dynamic Tables Demo - Python Dependencies
+# ===================================================
+# Install with: pip install -r requirements.txt
+
+# Core Snowflake connectivity
+snowflake-connector-python[pandas]==3.12.3
+
+# Data manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Rich terminal output for monitoring dashboard
+rich>=13.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional: For Jupyter notebook support
+ipykernel>=6.25.0
+jupyter>=1.0.0
+
+# Optional: For advanced data generation
+faker>=19.0.0
+
+# Optional: For async operations
+aiohttp>=3.8.0
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
+# black>=23.0.0
+# mypy>=1.5.0
+
